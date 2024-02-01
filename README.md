@@ -1,7 +1,7 @@
 # SmartMoney_Analysis_Solana
-# December 2023 ~ January 2024:
-## The UniSwap one is the past project i did that i think that was a failure,
-## This project that i just found out some traders with win rate (>80%), and copy their public address, 
+## December 2023 ~ January 2024:
+### The UniSwap one is the past project i did that i think that was a failure,
+### This project that i just found out some traders with win rate (>80%), and copy their public address, 
 # use Etherscan api to track their transaction 24/7, (i put it in GCP VM instance and run it), 
 # once i found them who has a new ERC-20 transfer in their wallet (buy/sell),
 # i basically followed their actions to trade with my wallet (Use uniswap api to swap WETH to the target token), (I did paper trading at first).
