@@ -23,8 +23,9 @@ api_key_list = ['E2IF43F4PF2MHH6B787XTFRMH59SEA2YMA','CBDCC17UVPM9M9TY12RRJZAVXZ
 base_url = 'https://api.etherscan.io/api'
 X_BLOBR_KEY_list = ['l2kZLXb5y159jtmORsUpZsrqmWR1hPNx','qs3JGw3zrwunLqpOupculHLc0qCi5VCY', 'EElaWmMD94plCowVHeYXRRkqb27WqyXH', 'ynbnBGGvGxNKhMuYGA6WrPt00NXQNX4E','19dFd6h5mFQphREHdn8aqWsImon5XaxE','SJFWcTI35dXdYVg8MCGrJW1Fr53BiEQ5']
 dex_tool_base_url = 'https://open-api.dextools.io/free'
-root_url = 'https://api.telegram.org/bot6300061453:AAE9018LlvLtflXz_Cpg9lzFq_uHdWw3Fb0'
-chatId = '-4160497993'
+# https://api.telegram.org/bot6304394298:AAE9018LlvLtflXz_Cpg9lzF_dajekwDna, you can get it when requesting the bot to send msg 
+root_url = 'https://api.telegram.org/bot:'
+chatId = '' # this is needed, you have to generate it by yourself
 msg = ""
 send_path = f"{root_url}/sendMessage?chat_id={chatId}&text="
 dex_tool_path = "https://www.dextools.io/app/en/ether/pair-explorer/"
